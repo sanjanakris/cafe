@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: url('food2.jpg');
+        background-repeat: no-repeat;
+        background-size:1250px 1000px;
+
+        
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color:rgb(236, 81, 96);
+    margin-left: 10px;
+    cursor: pointer;
+}
+    h1 {
+  text-shadow: 3px 3px 5px red;
+}
+
+  
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(236, 81, 96);
+    padding: 4px;
+    transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px rgb(236, 81, 96),0 3px 50px rgb(236, 81, 96),
+    0 3px 50px rgb(236, 81, 96),0 3px 50px rgb(236, 81, 96);
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: #fff;
+}
+
+.content{
+    position: bottom;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+.content h4{
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content p{
+    text-align: bottom;
+    margin-top: 17px;
+}
+
